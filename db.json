@@ -2,19 +2,19 @@
 
     "testimonials": [
         {
-            "testimonialId": "1",
+            "id": "1",
           "seekerId": "1",
           "providerId": "",
           "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
         },
         {
-            "testimonialId": "2",
+            "id": "2",
           "seekerId": "",
           "providerId": "2",
           "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
         },
         {
-            "testimonialId": "3",
+            "id": "3",
           "seekerId": "3",
           "providerId": "",
           "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci"
@@ -26,7 +26,7 @@
   "seekers":[
 
       {
-          "seekerId": "1",
+          "id": "1",
           "firstName": "Stephen",
           "lastName": "Sander",
           "phoneNumber": "403676904",
@@ -37,7 +37,7 @@
           "postalCode": "T3B2L2"
       },
       {
-          "seekerId": "2",
+          "id": "2",
           "firstName": "Geoff",
           "lastName": "Sander",
           "phoneNumber": "1478523654",
@@ -48,7 +48,7 @@
           "postalCode": "Y6R4E3"
       },
       {
-          "seekerId": "3",
+          "id": "3",
           "firstName": "Noelle",
           "lastName": "Sander",
           "phoneNumber": "7414778745",
@@ -62,7 +62,7 @@
   ],
   "providers":[
       {
-      "providerId": "1",
+      "id": "1",
       "firstName": "gord",
       "lastName": "evans",
       "email": "gord@gmail.com",
@@ -76,7 +76,7 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
-          "providerId": "2",
+          "id": "2",
           "firstName": "jason",
           "lastName": "bouchowski",
           "email": "json@gmail.com",
@@ -90,7 +90,7 @@
           "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
           {
-              "providerId": "3",
+              "id": "3",
               "firstName": "sam",
               "lastName": "samson",
               "email": "sam@gmail.com",
@@ -109,7 +109,7 @@
   "jobs":[
 
       {
-      "jobId": "1",
+      "id": "1",
       "seekerId": "1",
       "providerId": "1",
       "type": "electrician",
@@ -122,7 +122,7 @@
       "completed": "false"
       },
       {
-       "jobId": "2",
+       "id": "2",
        "seekerId": "2",
        "providerId": "2",
       "type": "plumber",
@@ -136,7 +136,7 @@
       "completed": "false"
           },
           {
-     "jobId": "3",
+     "id": "3",
      "seekerId": "3",
      "providerId": "3",
      "type": "landscaping",
@@ -154,20 +154,20 @@
 
   "complaints":[
       {
-      "complaintId": "1",
+      "id": "1",
       "jobId": "1",
       "date": "04-02-2019",
       "estimate": "123"
 
       },
       {
-          "complaintId": "2",
+          "id": "2",
           "jobId": "2",
           "date": "05-10-2019",
           "estimate": "123"
           },
           {
-          "complaintId": "3",
+          "id": "3",
           "jobId": "1",
           "date": "06-12-2020",
           "estimate": "123"
